@@ -155,8 +155,10 @@ txt2('**Análise de sobrevida de pacientes com câncer colorretal**', '2023 - Pu
 my_bar = st.progress(100, text='Completo')
 st.info("""
 Aplicação das ferramentas de Ciência de Dados e Inteligência Artificial para determinar o melhor modelo de machine learning para predizer a sobrevida de pacientes com câncer colorretal presentes no Registro Hospitalar de Câncer (RHC-SP).
-        
+
 Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
+        
+> Documentação disponível em: https://colorectal-site.readthedocs.io/en/latest/
 """)
 
 txt2('**Análise de sobrevida em pacientes com qualquer tipo de câncer**', '2022 - Finalizado')
@@ -165,6 +167,8 @@ st.info("""
 Testes iniciais relizados no Registro Hospitalar de Câncer de São Paulo, de modo a tratar os dados e treinar algoritmos de IA para predizer a sobrevida dos pacientes presentes no banco de dados. A realização deste estudo piloto levou a Mauá a participar do projeto FAPESP ConeCta-SP, colaborando no subprojeto do Eixo 2 chamado "Inteligência Artificial na predição de sobrevida de pacientes com câncer no período da epidemia da COVID-19 (2020/21) e anos não-epidêmicos"
         
 Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
+        
+> Documentação disponível em: https://cancer-project.readthedocs.io/en/latest/
 """)
 
 txt2('**Análise de acidentes em rodovias federais**', '2022 - Submissão do artigo')
