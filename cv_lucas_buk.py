@@ -86,12 +86,17 @@ st.write("## Experiência")
 
 txt2('**Engenheiro Pesquisador**', 'Abril, 2021 - Presente')
 st.info("""
-Atuação como engenheiro pesquisador em Ciência de Dados e Inteligência Artificial no Núcleo de Sistemas Eletrônicos Embarcados (NSEE) do Instituto Mauá de Tecnologia, com aplicações em saúde pública e análise de acidentes.
+Atuação como engenheiro pesquisador e líder da área de Ciência de Dados e Inteligência Artificial no Núcleo de Sistemas Eletrônicos Embarcados (NSEE) do Instituto Mauá de Tecnologia, com aplicações em saúde pública e análise de acidentes.
+""")
+
+txt2('**Coordenador do módulo Ciência de Dados, Técnicas e Aplicações na Pós-Graduação**', 'Março, 2024 - Presente')
+st.info("""
+Atuação como coordenador do módulo de Ciência de Dados na Pós-Graduação do Instituto Mauá de Tecnologia.
 """)
 
 txt2('**Professor da Pós-Graduação**', 'Março, 2022 - Presente')
 st.info("""
-Atuação como professor da Pós-Graduação do Instituto Mauá de Tecnologia, nas disciplinas de Aprendizado de Máquina e Projetos em Ciência de Dados.
+Atuação como professor da Pós-Graduação do Instituto Mauá de Tecnologia, nas disciplinas de Aprendizado de Máquina, Projetos em Ciência de Dados e Introdução à Ciência de Dados.
 """)
 
 txt2('**Estágio operacional no Centro de Pesquisas do Instituto Mauá de Tecnologia**', 'Agosto, 2019 - Janiro, 2020')
@@ -157,7 +162,8 @@ st.info("""
 Aplicação das ferramentas de Ciência de Dados e Inteligência Artificial para determinar o melhor modelo de machine learning para predizer a sobrevida de pacientes com câncer colorretal presentes no Registro Hospitalar de Câncer (RHC-SP).
 
 Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
-        
+
+> Artigo completo: https://www.nature.com/articles/s41598-023-35649-9
 > Documentação disponível em: https://colorectal-site.readthedocs.io/en/latest/
 """)
 
