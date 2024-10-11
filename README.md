@@ -98,4 +98,3 @@ Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para entrar em conta
 ---
 
 Feito com ❤️ por [Lucas Buk Cardoso](https://github.com/Lucas-Buk)
-```
