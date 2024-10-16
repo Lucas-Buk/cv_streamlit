@@ -12,7 +12,7 @@ st.set_page_config(# Alternate names: setup_page, page, layout
 )
 
 with st.sidebar:
-    image = Image.open('perfil.png')
+    image = Image.open('assets\perfil.png')
     st.image(image, width=250)
     st.write('# Lucas Buk Cardoso')
 
@@ -22,7 +22,7 @@ with st.sidebar:
     st.write('#### ')
 
     # Carregar a imagem do GitHub
-    github_logo = Image.open('github-logo.png')
+    github_logo = Image.open('assets\github-logo.png')
     buffered = BytesIO()
     github_logo.save(buffered, format="PNG")
     github_logo_base64 = base64.b64encode(buffered.getvalue()).decode()
