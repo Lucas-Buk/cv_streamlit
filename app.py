@@ -164,6 +164,7 @@ Aplicação das ferramentas de Ciência de Dados e Inteligência Artificial para
 Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
 
 > Artigo completo: https://www.nature.com/articles/s41598-023-35649-9
+
 > Documentação disponível em: https://colorectal-site.readthedocs.io/en/latest/
 """)
 
