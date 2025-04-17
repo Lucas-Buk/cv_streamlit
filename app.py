@@ -48,7 +48,7 @@ with st.sidebar:
 
 st.markdown('## Resumo', unsafe_allow_html = True)
 st.markdown("""
-Possui Especialização em Ciência de Dados e Inteligência Artificial e graduação em Engenharia de Controle e Automação, ambos pelo Instituto Mauá de Tecnologia. Atualmente é Doutorando em Engenharia Elétrica na Escola Politécnica da USP e engenheiro pesquisador no Núcleo de Sistemas Eletrônicos Embarcados (NSEE) do Instituto Mauá de Tecnologia, visando aplicações de Ciência de Dados e Inteligência Artificial na área da saúde pública. Lidera a participação do NSEE no projeto ConeCta-SP da FAPESP.
+Possui Especialização em Ciência de Dados e Inteligência Artificial e graduação em Engenharia de Controle e Automação, ambos pelo Instituto Mauá de Tecnologia. Atualmente é Mestrando em Engenharia Elétrica na Escola Politécnica da USP e engenheiro pesquisador no Núcleo de Sistemas Eletrônicos Embarcados (NSEE) do Instituto Mauá de Tecnologia, visando aplicações de Ciência de Dados e Inteligência Artificial na área da saúde pública. Lidera a participação do NSEE no projeto ConeCta-SP da FAPESP.
 """)
 
 ###################
@@ -73,7 +73,7 @@ def txt2(a, b):
 # Formação Acadêmica
 st.write("## Formação Acadêmica")
 
-txt('**Doutorado Direto - Engenharia Elétrica na Escola Politécnica da USP**', 'Março, 2022 - Presente')
+txt('**Mestrado - Engenharia Elétrica na Escola Politécnica da USP**', 'Março, 2022 - Presente')
 
 txt('**Especialização em Ciência de Dados e Inteligência Artificial - Instituto Mauá de Tecnologia**', 'Agosto, 2020 - Dezembro, 2021')
 
@@ -86,7 +86,7 @@ st.write("## Experiência")
 
 txt2('**Engenheiro Pesquisador**', 'Abril, 2021 - Presente')
 st.info("""
-Atuação como engenheiro pesquisador e líder da área de Ciência de Dados e Inteligência Artificial no Núcleo de Sistemas Eletrônicos Embarcados (NSEE) do Instituto Mauá de Tecnologia, com aplicações em saúde pública e análise de acidentes.
+Atuação como engenheiro pesquisador da área de Ciência de Dados e Inteligência Artificial no Núcleo de Sistemas Eletrônicos Embarcados (NSEE) do Instituto Mauá de Tecnologia, com aplicações em saúde pública e análise de acidentes.
 """)
 
 txt2('**Coordenador do módulo Ciência de Dados, Técnicas e Aplicações na Pós-Graduação**', 'Março, 2024 - Presente')
@@ -124,16 +124,26 @@ Disponível em: https://www.cremesp.org.br/library/modulos/flipbook/revista/102/
 # Projetos de Pesquisa
 st.write("## Projetos de Pesquisa")
 
-txt2('**Criação de modelos de IA para predizer a sobrevida de pacientes com câncer de pulmão**', '2024 - Etapas iniciais')
+txt2('**Criação de modelos de IA para predizer a sobrevida de pacientes com câncer de pulmão**', '2025 - Etapas iniciais')
 my_bar = st.progress(20, text='Iniciando as análises')
 st.info("""
-A partir dos dados de câncer de pulmão do Registro Hospitalar de Câncer do Estado de São Paulo (RHC-SP), serão criados modelos de machine learning de classificação e de sobrevida, além do modelo de Cox, de modo a comparar os resultados para a predição de sobrevida e vantagens e desvantagens dos diferentes tipos de modelos. Espera-se também realizar análises dos anos pandêmicos e seus impactos no tratamento de câncer de pulmão.
+A partir dos dados de câncer de pulmão do Registro Hospitalar de Câncer do Estado de São Paulo (RHC-SP), serão criados modelos de machine learning de classificação e de sobrevida, de modo a comparar os resultados para a predição de sobrevida e vantagens e desvantagens dos diferentes tipos de modelos. Espera-se também realizar análises dos anos pandêmicos e seus impactos no tratamento de câncer de pulmão.
         
 Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
 """)
 
-txt2('**Predição de recorrência em pacientes com câncer de pulmão**', '2024 - Etapas iniciais')
-my_bar = st.progress(20, text='Iniciando as análises')
+txt2('**Comparação de modelos de IA de sobrevida para pacientes com 5 tipos de câncer**', '2024 - Escrita do artigo')
+my_bar = st.progress(80, text='Análises finalizadas')
+st.info("""
+A partir dos dados de câncer do Registro Hospitalar de Câncer do Estado de São Paulo (RHC-SP), serão criados modelos de machine learning de sobrevida, que levam em consideração os dados censurados nas análises. Os modelos utilizados são: Random Survival Forest, Gradient Boosting Survival, Survival SVM, XGBoost Cox, XGBoost AFT e LightGBM.
+        
+Os tipos utilizados são Mama, Próstata, Pulmão, Colorretal e Colo do Útero.
+        
+Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
+""")
+
+txt2('**Predição de recorrência em pacientes com câncer de pulmão**', '2024 - Escrita do artigo')
+my_bar = st.progress(80, text='Análises finalizadas')
 st.info("""
 Utilização de algoritmos de IA para predição a volta do câncer (recorrência) em pacientes com câncer de pulmão, dados provenientes do Registro Hospitalar de Câncer de São Paulo (RHC-SP).
         
