@@ -133,11 +133,19 @@ Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública 
 """)
 
 txt2('**Comparação de modelos de IA de sobrevida para pacientes com 5 tipos de câncer**', '2024 - Escrita do artigo')
-my_bar = st.progress(80, text='Análises finalizadas')
+my_bar = st.progress(80, text='Finalização da escrita do artigo')
 st.info("""
 A partir dos dados de câncer do Registro Hospitalar de Câncer do Estado de São Paulo (RHC-SP), serão criados modelos de machine learning de sobrevida, que levam em consideração os dados censurados nas análises. Os modelos utilizados são: Random Survival Forest, Gradient Boosting Survival, Survival SVM, XGBoost Cox, XGBoost AFT e LightGBM.
         
 Os tipos utilizados são Mama, Próstata, Pulmão, Colorretal e Colo do Útero.
+        
+Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
+""")
+
+txt2('**Aplicação metodológica de modelos de machine learning de sobrevida**', '2024 - Escrita do artigo')
+my_bar = st.progress(80, text='Finalização da escrita do artigo')
+st.info("""
+A partir dos dados de câncer do Registro Hospitalar de Câncer do Estado de São Paulo (RHC-SP), será utilizada uma metodologia que inclui o treinamento dos modelos de machine learning de sobrevida, utilização de métricas adequadas, busca pelos melhores hiperparâmetros e métodos de analisar importância das colunas de entradas. Os modelos utilizados são: Random Survival Forest, Gradient Boosting Survival, Survival SVM, XGBoost Cox, XGBoost AFT e LightGBM.
         
 Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
 """)
@@ -158,7 +166,7 @@ Realização de análises dos anos perdidos por pacientes de câncer de pulmão.
 Colaboração com o Thoracic Oncology Research Group (THORG).
 """)
 
-txt2('**Predição de sobrevida cruzada em tipos de câncer**', '2024 - Submissão do artigo')
+txt2('**Predição de sobrevida cruzada em tipos de câncer**', '2024 - Em revisão na revista')
 my_bar = st.progress(100, text='Completo')
 st.info("""
 Criação de modelos de machine learning para predizer a sobrevida entre tipos diferentes de câncer, de modo a buscar características em comum para os vários tipos testados. Dois grupos foram selecionados para realização da predição cruzada: cânceres mais frequentes e relacionados ao sistema digestório.
