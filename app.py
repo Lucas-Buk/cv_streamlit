@@ -107,11 +107,25 @@ Estagiário no Núcleo de Sistemas Produtivos Inteligentes (NSPI) do Instituto M
 # Publicações
 st.write("## Publicações")
 
+txt2('**Cross-cancer survival prediction using machine learning models**', 'Março, 2026')
+st.info(f"""
+Artigo publicado na **Scientific Reports** da **Nature**, com o estudo de predição cruzada entre diversos tipos de câncer.
+
+Disponível em: https://www.nature.com/articles/s41598-025-34133-w.
+""")
+
 txt2('**Machine learning for predicting survival of colorectal cancer patients**', 'Junho, 2023')
 st.info(f"""
 Artigo publicado na **Scientific Reports** da **Nature**, com o estudo realizado para a predição da sobrevida de pacientes com câncer colorretal.
 
 Disponível em: https://www.nature.com/articles/s41598-023-35649-9.
+""")
+
+txt2('**Time of day is associated with federal highway accidents in Brazil**', 'Dezembro, 2025')
+st.info(f"""
+Artigo publicado na **Brazilian Journal of Medical and Biological Research**, com análises sobre acidentes em estrada federais no Brasil.
+
+Disponível em: https://www.bjournal.org/article/time-of-day-is-associated-with-federal-highway-accidents-in-brazil/.
 """)
 
 txt2('**Desafio ético no compartilhamento de dados em Saúde**', 'Julho, 2023')
@@ -124,18 +138,18 @@ Disponível em: https://www.cremesp.org.br/library/modulos/flipbook/revista/102/
 # Projetos de Pesquisa
 st.write("## Projetos de Pesquisa")
 
-txt2('**Criação de modelos de IA para predizer a sobrevida de pacientes com câncer de pulmão**', '2025 - Etapas iniciais')
-my_bar = st.progress(20, text='Iniciando as análises')
-st.info("""
-A partir dos dados de câncer de pulmão do Registro Hospitalar de Câncer do Estado de São Paulo (RHC-SP), serão criados modelos de machine learning de classificação e de sobrevida, de modo a comparar os resultados para a predição de sobrevida e vantagens e desvantagens dos diferentes tipos de modelos. Espera-se também realizar análises dos anos pandêmicos e seus impactos no tratamento de câncer de pulmão.
+# txt2('**Criação de modelos de IA para predizer a sobrevida de pacientes com câncer de pulmão**', '2025 - Etapas iniciais')
+# my_bar = st.progress(20, text='Iniciando as análises')
+# st.info("""
+# A partir dos dados de câncer de pulmão do Registro Hospitalar de Câncer do Estado de São Paulo (RHC-SP), serão criados modelos de machine learning de classificação e de sobrevida, de modo a comparar os resultados para a predição de sobrevida e vantagens e desvantagens dos diferentes tipos de modelos. Espera-se também realizar análises dos anos pandêmicos e seus impactos no tratamento de câncer de pulmão.
         
-Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
-""")
+# Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
+# """)
 
-txt2('**Comparação de modelos de IA de sobrevida para pacientes com 5 tipos de câncer**', '2024 - Escrita do artigo')
-my_bar = st.progress(80, text='Finalização da escrita do artigo')
+txt2('**Comparação de modelos de IA de sobrevida para pacientes com 5 tipos de câncer**', '2024 - Em revisão')
+my_bar = st.progress(90, text='Artigo em revisão')
 st.info("""
-A partir dos dados de câncer do Registro Hospitalar de Câncer do Estado de São Paulo (RHC-SP), serão criados modelos de machine learning de sobrevida, que levam em consideração os dados censurados nas análises. Os modelos utilizados são: Random Survival Forest, Gradient Boosting Survival, Survival SVM, XGBoost Cox, XGBoost AFT e LightGBM.
+A partir dos dados de câncer do Registro Hospitalar de Câncer do Estado de São Paulo (RHC-SP), serão criados modelos de machine learning de sobrevida, que levam em consideração os dados censurados nas análises. Os modelos utilizados são: Random Survival Forest, Gradient Boosting for Survival Analysis, Survival SVM, XGBoost-Cox, XGBoost-AFT e LightGBM.
         
 Os tipos utilizados são Mama, Próstata, Pulmão, Colorretal e Colo do Útero.
         
@@ -143,20 +157,20 @@ Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública 
 """)
 
 txt2('**Aplicação metodológica de modelos de machine learning de sobrevida**', '2024 - Escrita do artigo')
-my_bar = st.progress(80, text='Finalização da escrita do artigo')
+my_bar = st.progress(80, text='Texto finalizado')
 st.info("""
 A partir dos dados de câncer do Registro Hospitalar de Câncer do Estado de São Paulo (RHC-SP), será utilizada uma metodologia que inclui o treinamento dos modelos de machine learning de sobrevida, utilização de métricas adequadas, busca pelos melhores hiperparâmetros e métodos de analisar importância das colunas de entradas. Os modelos utilizados são: Random Survival Forest, Gradient Boosting Survival, Survival SVM, XGBoost Cox, XGBoost AFT e LightGBM.
         
 Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
 """)
 
-txt2('**Predição de recorrência em pacientes com câncer de pulmão**', '2024 - Escrita do artigo')
-my_bar = st.progress(80, text='Análises finalizadas')
-st.info("""
-Utilização de algoritmos de IA para predição a volta do câncer (recorrência) em pacientes com câncer de pulmão, dados provenientes do Registro Hospitalar de Câncer de São Paulo (RHC-SP).
+# txt2('**Predição de recorrência em pacientes com câncer de pulmão**', '2024 - Escrita do artigo')
+# my_bar = st.progress(80, text='Análises finalizadas')
+# st.info("""
+# Utilização de algoritmos de IA para predição a volta do câncer (recorrência) em pacientes com câncer de pulmão, dados provenientes do Registro Hospitalar de Câncer de São Paulo (RHC-SP).
         
-Colaboração com o Thoracic Oncology Research Group (THORG).
-""")
+# Colaboração com o Thoracic Oncology Research Group (THORG).
+# """)
 
 txt2('**Análise dos anos de vida perdidos de pacientes com câncer de pulmão**', '2024 - Abstract aceito na WCLC da IASLC')
 my_bar = st.progress(100, text='Completo')
@@ -166,12 +180,14 @@ Realização de análises dos anos perdidos por pacientes de câncer de pulmão.
 Colaboração com o Thoracic Oncology Research Group (THORG).
 """)
 
-txt2('**Predição de sobrevida cruzada em tipos de câncer**', '2024 - Em revisão na revista')
+txt2('**Predição de sobrevida cruzada em tipos de câncer**', '2024 - Publicado na Scientific Reports')
 my_bar = st.progress(100, text='Completo')
 st.info("""
 Criação de modelos de machine learning para predizer a sobrevida entre tipos diferentes de câncer, de modo a buscar características em comum para os vários tipos testados. Dois grupos foram selecionados para realização da predição cruzada: cânceres mais frequentes e relacionados ao sistema digestório.
         
 Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
+        
+> Artigo completo: https://www.nature.com/articles/s41598-025-34133-w
 """)
 
 txt2('**Análise de sobrevida de pacientes com câncer colorretal**', '2023 - Publicado na Scientific Reports')
@@ -196,12 +212,14 @@ Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública 
 > Documentação disponível em: https://cancer-project.readthedocs.io/en/latest/
 """)
 
-txt2('**Análise de acidentes em rodovias federais**', '2022 - Submissão do artigo')
+txt2('**Análise de acidentes em rodovias federais**', '2022 - Publicado no Brazilian Journal of Medical and Biological Research')
 my_bar = st.progress(100, text='Completo')
 st.info("""
 Realização de análises de fluxo e acidentes em estradas federais do Brasil, visando encontrar explicações e correlações entre os horários e locais de ocorrência.
         
 Colaboração com a Faculdade de Saúde Pública da USP.
+        
+> Artigo completo: https://www.bjournal.org/article/time-of-day-is-associated-with-federal-highway-accidents-in-brazil/
 """)
 
 # Premiações e Reconhecimentos
