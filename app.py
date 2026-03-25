@@ -50,6 +50,7 @@ st.markdown('## Resumo', unsafe_allow_html = True)
 st.markdown("""
 Possui Especialização em Ciência de Dados e Inteligência Artificial e graduação em Engenharia de Controle e Automação, ambos pelo Instituto Mauá de Tecnologia. Atualmente é Mestrando em Engenharia Elétrica na Escola Politécnica da USP e engenheiro pesquisador no Núcleo de Sistemas Eletrônicos Embarcados (NSEE) do Instituto Mauá de Tecnologia, visando aplicações de Ciência de Dados e Inteligência Artificial na área da saúde pública. Lidera a participação do NSEE no projeto ConeCta-SP da FAPESP.
 """)
+st.divider()
 
 ###################
 
@@ -71,7 +72,7 @@ def txt2(a, b):
 ###################
 
 # Formação Acadêmica
-st.write("## Formação Acadêmica")
+st.write("## Formação Acadêmica", )
 
 txt('**Mestrado - Engenharia Elétrica na Escola Politécnica da USP**', 'Março, 2022 - Presente')
 
@@ -81,59 +82,65 @@ txt('**Bacharel em Engenharia de Controle e Automação - Instituto Mauá de Tec
 
 txt('**Curso Técnico em Automação Industrial - ETEC Jorge Street**', 'Fevereiro, 2013 - Dezembro, 2014')
 
+st.divider()
+
 # Experiência
 st.write("## Experiência")
 
-txt2('**Engenheiro Pesquisador**', 'Abril, 2021 - Presente')
+txt2('##### **Engenheiro Pesquisador**', '##### Abril, 2021 - Presente')
 st.info("""
 Atuação como engenheiro pesquisador da área de Ciência de Dados e Inteligência Artificial no Núcleo de Sistemas Eletrônicos Embarcados (NSEE) do Instituto Mauá de Tecnologia, com aplicações em saúde pública e análise de acidentes.
 """)
 
-txt2('**Coordenador do módulo Ciência de Dados, Técnicas e Aplicações na Pós-Graduação**', 'Março, 2024 - Presente')
+txt2('##### **Coordenador do módulo Ciência de Dados na Pós-Graduação**', '##### Março, 2024 - Presente')
 st.info("""
 Atuação como coordenador do módulo de Ciência de Dados na Pós-Graduação do Instituto Mauá de Tecnologia.
 """)
 
-txt2('**Professor da Pós-Graduação**', 'Março, 2022 - Presente')
+txt2('##### **Professor da Pós-Graduação**', '##### Março, 2022 - Presente')
 st.info("""
 Atuação como professor da Pós-Graduação do Instituto Mauá de Tecnologia, nas disciplinas de Aprendizado de Máquina, Projetos em Ciência de Dados e Introdução à Ciência de Dados.
 """)
 
-txt2('**Estágio operacional no Centro de Pesquisas do Instituto Mauá de Tecnologia**', 'Agosto, 2019 - Janiro, 2020')
+txt2('##### **Estágio operacional no Centro de Pesquisas do Instituto Mauá de Tecnologia**', '##### Agosto, 2019 - Janiro, 2020')
 st.info("""
 Estagiário no Núcleo de Sistemas Produtivos Inteligentes (NSPI) do Instituto Mauá de Tecnologia, atuando na operação de uma planta de indústria 4.0.
 """)
 
+st.divider()
+
 # Publicações
 st.write("## Publicações")
 
-txt2('**Cross-cancer survival prediction using machine learning models**', 'Março, 2026')
+txt2('##### **Cross-cancer survival prediction using machine learning models**', '##### Março, 2026')
 st.info(f"""
 Artigo publicado na **Scientific Reports** da **Nature**, com o estudo de predição cruzada entre diversos tipos de câncer.
 
 Disponível em: https://www.nature.com/articles/s41598-025-34133-w.
 """)
 
-txt2('**Machine learning for predicting survival of colorectal cancer patients**', 'Junho, 2023')
+txt2('##### **Machine learning for predicting survival of colorectal cancer patients**', '##### Junho, 2023')
 st.info(f"""
 Artigo publicado na **Scientific Reports** da **Nature**, com o estudo realizado para a predição da sobrevida de pacientes com câncer colorretal.
 
 Disponível em: https://www.nature.com/articles/s41598-023-35649-9.
 """)
 
-txt2('**Time of day is associated with federal highway accidents in Brazil**', 'Dezembro, 2025')
+txt2('##### **Time of day is associated with federal highway accidents in Brazil**', '##### Dezembro, 2025')
 st.info(f"""
 Artigo publicado na **Brazilian Journal of Medical and Biological Research**, com análises sobre acidentes em estrada federais no Brasil.
 
 Disponível em: https://www.bjournal.org/article/time-of-day-is-associated-with-federal-highway-accidents-in-brazil/.
 """)
 
-txt2('**Desafio ético no compartilhamento de dados em Saúde**', 'Julho, 2023')
+txt2('##### **Desafio ético no compartilhamento de dados em Saúde**', '##### Julho, 2023')
 st.info("""
 Artigo publicado na **Revista CREMESP**, comentando sobre como compartilhar dados de saúde, proteger a privacidade dos pacientes e, ainda assim, não limitar o aprendizado dos modelos de IA.  
 
 Disponível em: https://www.cremesp.org.br/library/modulos/flipbook/revista/102/36/index.html
 """)
+
+st.divider()
 
 # Projetos de Pesquisa
 st.write("## Projetos de Pesquisa")
@@ -222,34 +229,38 @@ Colaboração com a Faculdade de Saúde Pública da USP.
 > Artigo completo: https://www.bjournal.org/article/time-of-day-is-associated-with-federal-highway-accidents-in-brazil/
 """)
 
+st.divider()
+
 # Premiações e Reconhecimentos
 st.write("## Premiações e Reconhecimentos")
-txt2('**Melhor aluno de Engenharia de Controle e Automação**', 'Janeiro, 2020')
+txt2('##### **Melhor aluno de Engenharia de Controle e Automação**', '##### Janeiro, 2020')
 st.info("""
 Prêmio de melhor aluno do curso de Engenharia de Controle e Automação do Instituto Mauá de Tecnologia, entre os formandos em 2019.
 """)
 
-txt2('**Melhor TCC do Eureka 2019 pela votação popular**', 'Janeiro, 2020')
+txt2('##### **Melhor TCC do Eureka 2019 pela votação popular**', '##### Janeiro, 2020')
 st.info("""
 Prêmio de melhor trabalho de graduação do Eureka 2019, com Robô de Companhia para Idosos, eleito pela votação dos visitantes do evento.
 """)
 
-txt2('**Participação no Desafio UFABC de Empreendedorismo**', 'Junho, 2015')
+txt2('##### **Participação no Desafio UFABC de Empreendedorismo**', '##### Junho, 2015')
 st.info("""
 Participação e 5° lugar do projeto do Assento Preferencial Automatizado, realizado como TCC do curso técnico em Automação Industrial, na fase final do desafio.
 """)
 
+st.divider()
+
 # Palestras e Vídeos
 st.write("## Palestras e Vídeos")
 
-txt2('**Utilização de Inteligência Artificial no estudo de sobrevida de pacientes com câncer**', 'Setembro, 2023')
+txt2('##### **Utilização de Inteligência Artificial no estudo de sobrevida de pacientes com câncer**', '##### Setembro, 2023')
 st.info("""
 Palestra na Conferência Científica com o AC Camargo Cancer Center, mostrando as etapas realizadas no estudo com pacientes de câncer colorretal publicado na Scientific Reports.
         
 Disponível em: https://www.youtube.com/live/UYwVvTFmMM4?si=0T7FpngXyvGNttQi
 """)
 
-txt2('**WorkShop: Ciência de Dados e Inteligência Artificial**', 'Fevereiro, 2023')
+txt2('##### **WorkShop: Ciência de Dados e Inteligência Artificial**', '##### Fevereiro, 2023')
 st.info("""
 Terceira parte do WorkShop: Ciência de Dados e Inteligência Artificial, promovido pelos professores da Pós-graduação de Ciência de Dados e Inteligência Artificial do Instituto Mauá de Tecnologia. 
         
