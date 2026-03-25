@@ -102,7 +102,7 @@ st.info("""
 Atuação como professor da Pós-Graduação do Instituto Mauá de Tecnologia, nas disciplinas de Aprendizado de Máquina, Projetos em Ciência de Dados e Introdução à Ciência de Dados.
 """)
 
-txt2('##### **Estágio operacional no Centro de Pesquisas do Instituto Mauá de Tecnologia**', '##### Agosto, 2019 - Janiro, 2020')
+txt2('##### **Estágio operacional no Centro de Pesquisas do Instituto Mauá de Tecnologia**', '##### Agosto, 2019 - Janeiro, 2020')
 st.info("""
 Estagiário no Núcleo de Sistemas Produtivos Inteligentes (NSPI) do Instituto Mauá de Tecnologia, atuando na operação de uma planta de indústria 4.0.
 """)
