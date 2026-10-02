@@ -48,7 +48,13 @@ with st.sidebar:
 
 st.markdown('## Resumo', unsafe_allow_html = True)
 st.markdown("""
-Possui Especialização em Ciência de Dados e Inteligência Artificial e graduação em Engenharia de Controle e Automação, ambos pelo Instituto Mauá de Tecnologia. Atualmente é Mestrando em Engenharia Elétrica na Escola Politécnica da USP e engenheiro pesquisador no Núcleo de Sistemas Eletrônicos Embarcados (NSEE) do Instituto Mauá de Tecnologia, visando aplicações de Ciência de Dados e Inteligência Artificial na área da saúde pública. Lidera a participação do NSEE no projeto ConeCta-SP da FAPESP.
+Atuo nas áreas de Ciência de Dados, Machine Learning e Inteligência Artificial, com foco no desenvolvimento de modelos preditivos e na aplicação de técnicas de análise de dados a problemas complexos da área da saúde.
+
+Atualmente, sou Professor e Coordenador do módulo de Ciência de Dados, Técnicas e Aplicações da Pós-Graduação do Instituto Mauá de Tecnologia e Mestrando em Engenharia Elétrica pela Escola Politécnica da Universidade de São Paulo (USP).
+
+Minha pesquisa concentra-se na aplicação de técnicas de Machine Learning e análise estatística a dados clínicos e socioeconômicos, especialmente no desenvolvimento e avaliação de modelos para a predição da sobrevida de pacientes com câncer. Tenho experiência com modelagem preditiva, análise de sobrevivência, otimização de modelos e técnicas de interpretabilidade, buscando transformar dados complexos em informações que possam apoiar a tomada de decisão em saúde.
+
+Também participo do projeto ConeCta-SP, financiado pela FAPESP, em colaboração com a Fundação Oncocentro de São Paulo (FOSP), A.C.Camargo Cancer Center e Faculdade de Saúde Pública da USP. 
 """)
 st.divider()
 
@@ -74,7 +80,7 @@ def txt2(a, b):
 # Formação Acadêmica
 st.write("## Formação Acadêmica", )
 
-txt('**Mestrado - Engenharia Elétrica na Escola Politécnica da USP**', 'Março, 2022 - Presente')
+txt('**Mestrado - Engenharia Elétrica na Escola Politécnica da USP**', 'Abril, 2025 - Presente')
 
 txt('**Especialização em Ciência de Dados e Inteligência Artificial - Instituto Mauá de Tecnologia**', 'Agosto, 2020 - Dezembro, 2021')
 
@@ -111,6 +117,13 @@ st.divider()
 
 # Publicações
 st.write("## Publicações")
+
+txt2('##### **Machine learning e sobrevida em câncer: análise do Registro Hospitalar de Câncer de São Paulo**', '##### Junho, 2026')
+st.info(f"""
+Artigo publicado na **Revista de Saúde Pública**, com o estudo de comparação do desempenho de diferentes algoritmos de Survival Machine Learning (SML) na predição da sobrevida de pacientes com câncer.
+
+Disponível em: https://rsp.fsp.usp.br/pt-br/article/machine-learning-e-sobrevida-em-cancer-analise-do-registro-hospitalar-de-cancer-de-sao-paulo/.
+""")
 
 txt2('##### **Cross-cancer survival prediction using machine learning models**', '##### Março, 2026')
 st.info(f"""
@@ -153,31 +166,25 @@ st.write("## Projetos de Pesquisa")
 # Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
 # """)
 
-txt2('**Comparação de modelos de IA de sobrevida para pacientes com 5 tipos de câncer**', '2024 - Em revisão')
-my_bar = st.progress(90, text='Artigo em revisão')
-st.info("""
-A partir dos dados de câncer do Registro Hospitalar de Câncer do Estado de São Paulo (RHC-SP), serão criados modelos de machine learning de sobrevida, que levam em consideração os dados censurados nas análises. Os modelos utilizados são: Random Survival Forest, Gradient Boosting for Survival Analysis, Survival SVM, XGBoost-Cox, XGBoost-AFT e LightGBM.
-        
-Os tipos utilizados são Mama, Próstata, Pulmão, Colorretal e Colo do Útero.
-        
-Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
-""")
-
-txt2('**Aplicação metodológica de modelos de machine learning de sobrevida**', '2024 - Escrita do artigo')
-my_bar = st.progress(80, text='Texto finalizado')
+txt2('**Aplicação metodológica de modelos de machine learning de sobrevida**', '2024 - Em revisão')
+my_bar = st.progress(90, text='Texto finalizado')
 st.info("""
 A partir dos dados de câncer do Registro Hospitalar de Câncer do Estado de São Paulo (RHC-SP), será utilizada uma metodologia que inclui o treinamento dos modelos de machine learning de sobrevida, utilização de métricas adequadas, busca pelos melhores hiperparâmetros e métodos de analisar importância das colunas de entradas. Os modelos utilizados são: Random Survival Forest, Gradient Boosting Survival, Survival SVM, XGBoost Cox, XGBoost AFT e LightGBM.
         
 Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
 """)
 
-# txt2('**Predição de recorrência em pacientes com câncer de pulmão**', '2024 - Escrita do artigo')
-# my_bar = st.progress(80, text='Análises finalizadas')
-# st.info("""
-# Utilização de algoritmos de IA para predição a volta do câncer (recorrência) em pacientes com câncer de pulmão, dados provenientes do Registro Hospitalar de Câncer de São Paulo (RHC-SP).
+txt2('**Comparação de modelos de IA de sobrevida para pacientes com 5 tipos de câncer**', '2024 - Publicado na Revista de Saúde Pública')
+my_bar = st.progress(100, text='Completo')
+st.info("""
+A partir dos dados de câncer do Registro Hospitalar de Câncer do Estado de São Paulo (RHC-SP), serão criados modelos de machine learning de sobrevida, que levam em consideração os dados censurados nas análises. Os modelos utilizados são: Random Survival Forest, Gradient Boosting for Survival Analysis, Survival SVM, XGBoost-Cox, XGBoost-AFT e LightGBM.
         
-# Colaboração com o Thoracic Oncology Research Group (THORG).
-# """)
+Os tipos utilizados são Mama, Próstata, Pulmão, Colorretal e Colo do Útero.
+        
+Projeto vinculado ao ConeCta-SP, colaboração com Faculdade de Saúde Pública da USP, AC Camargo Cancer Center e Fundação Oncocentro de São Paulo.
+
+> Artigo completo: https://rsp.fsp.usp.br/pt-br/article/machine-learning-e-sobrevida-em-cancer-analise-do-registro-hospitalar-de-cancer-de-sao-paulo/
+""")
 
 txt2('**Análise dos anos de vida perdidos de pacientes com câncer de pulmão**', '2024 - Abstract aceito na WCLC da IASLC')
 my_bar = st.progress(100, text='Completo')
